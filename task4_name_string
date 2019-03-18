@@ -1,0 +1,11 @@
+#include<stdio.h>
+main()
+{
+char first_name[20];
+char last_name[20];
+printf("Enter first name\t");
+gets(first_name);
+printf("Enter last name\t");
+gets(last_name);
+printf("Your name is:\t %s\t%s",first_name,last_name);
+}
