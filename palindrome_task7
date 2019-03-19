@@ -1,0 +1,15 @@
+#include<stdio.h>
+#include<string.h>
+ main()
+{
+	char n[20],a[20];
+	printf("enter word to be checked\n");
+	scanf("%s",&n);strcpy(a,n);
+	strrev(a);
+	
+	if(strcmp(n,a)==0)
+	printf("palindrome");
+	else
+	printf("not palinrome");
+	
+}
