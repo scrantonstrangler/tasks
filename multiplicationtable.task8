@@ -1,0 +1,14 @@
+#include<stdio.h>'
+main()
+{
+printf("enter integer\n");
+int n,m;
+scanf("%d",&n);
+int i=1;
+for(i=1;i<=10;i++)
+{
+ m=1;
+ m=n*i;
+	printf("%d*%d=%d\n",n,i,m);
+}
+}
